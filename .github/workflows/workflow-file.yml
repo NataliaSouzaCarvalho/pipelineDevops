@@ -4,7 +4,7 @@ jobs:
     name: PrimeiroJob
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Executando o STEP 1
         run: |
           echo Esse processo carrega uma mensagem
